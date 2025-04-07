@@ -1,0 +1,46 @@
+body {
+  background: url('./images/Backgroundphoto.jpg') no-repeat center center fixed; 
+  background-size: cover; /* Ensures the background image covers the entire screen */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f6f4f4; /* Dark text for better readability */
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.weather-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px; /* Add margin to space it out from the rest */
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #000000; /* Light blue background for each day */
+  border-radius: 8px; /* Rounded corners for a soft look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 10px; /* Space between days */
+}
+
+.day h3 {
+  color: #0277bd; /* Dark blue for headings */
+  font-size: 1.5rem;
+}
+
+.day p {
+  color: #0288d1; /* Lighter blue for the text */
+  font-size: 1.2rem;
+}
